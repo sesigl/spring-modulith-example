@@ -74,3 +74,14 @@ To get started with the code in this repository, please follow these steps.
 * **[jMolecules Official Site](https://jmolecules.org/)**
 * **[Oliver Drotbohm's Blog](https://odrotbohm.de/)**
 * **[odrotbohm/tactical-ddd-workshop](https://github.com/odrotbohm/tactical-ddd-workshop)**
+
+-----
+
+## 📖 Book Recommendations
+
+https://www.amazon.de/-/en/Sustainable-Software-Architecture-Analyze-Technical/dp/3864906733
+
+Sustainable Software Architecture: Analyze and Reduce Technical Debt Taschenbuch – 22. August 2019
+Englisch Ausgabe  von Carola Lilienthal (Autor)
+
+→ contains a good section about cognitive reasons about the impact of complex software

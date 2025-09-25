@@ -77,6 +77,26 @@ To get started with the code in this repository, please follow these steps.
 
 -----
 
+## 📝 Core Terminology & Object Lifecycle
+
+Understanding the lifecycle and management patterns of domain objects is crucial for implementing effective DDD patterns:
+
+### **Injectable Objects**
+- **Definition**: Container-managed components with singleton lifecycle
+- **Examples**: Services, Repositories, Domain Services, Application Services
+- **Characteristics**: Initialized once by the DI container, shared across requests
+- **Usage**: Stateless operations, coordinating business logic, data persistence
+
+### **Newable Objects**
+- **Definition**: Application-controlled objects created per request/operation
+- **Examples**: Aggregates, Entities, Value Objects, Domain Events
+- **Characteristics**: Created fresh for each business operation, encapsulate state and behavior
+- **Usage**: Representing business concepts, enforcing invariants, modeling domain logic
+
+This distinction helps maintain clear separation between infrastructure concerns (injectables) and domain modeling (newables).
+
+-----
+
 ## 📖 Book Recommendations
 
 https://www.amazon.de/-/en/Sustainable-Software-Architecture-Analyze-Technical/dp/3864906733

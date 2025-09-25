@@ -75,6 +75,12 @@ To get started with the code in this repository, please follow these steps.
 * **[Oliver Drotbohm's Blog](https://odrotbohm.de/)**
 * **[odrotbohm/tactical-ddd-workshop](https://github.com/odrotbohm/tactical-ddd-workshop)**
 
+### **Recommended Video**
+* **[Power Use of Value Objects in DDD](https://www.infoq.com/presentations/Value-Objects-Dan-Bergh-Johnsson/)** - Dan Bergh Johnsson refreshes the listeners' memory on using value objects showing by example how their good use can revolutionize a program's architecture, simplifying it, making it more readable and testable, in a word, better.
+
+### **Must-Read Resource**
+* **[Modular Monoliths](https://static.simonbrown.je/modular-monoliths.pdf)** - Essential reading on cohesion and different architectural approaches to building modular systems
+
 -----
 
 ## 📝 Core Terminology & Object Lifecycle
@@ -137,6 +143,14 @@ The choice between immediate compiler feedback (APT) and deferred validation inv
 - **Compile-time Validation**: The APT dependency provides immediate feedback for DDD rule violations
 - **Framework Integration**: Seamless integration with Spring, Jackson, and persistence frameworks
 - **Type Safety**: Generic interfaces ensure compile-time verification of domain relationships
+- **Boundary Handling**: While value objects (e.g., `Email` instead of `String`) require additional serialization work at boundaries, jMolecules simplifies this through built-in methods like `writeValueAsJson()` on interfaces, reducing boilerplate code
+- **JPA Integration**: Excellent JPA integration reduces heavy persistence annotations on domain models, eliminating the need for separate Record/persistence classes and reducing mapping layers
+
+### **Spring Modulith**
+- **Package-based Modularity**: Adds modularity based on package structure, making logical boundaries explicit
+- **Selective Module Startup**: Enables starting specific verticals (modules) independently for development and testing
+- **Isolated Testing**: Supports running tests only within module boundaries and their dependencies, improving test focus and performance
+- **Module Verification**: Validates module boundaries and dependencies at build time to prevent architectural violations
 
 -----
 

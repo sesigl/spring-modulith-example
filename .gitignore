@@ -162,7 +162,7 @@ Temporary Items
 *.icloud
 
 ### Maven ###
-target/
+apps/example/target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -181,3 +181,5 @@ buildNumber.properties
 .classpath
 
 # End of https://www.toptal.com/developers/gitignore/api/java,macos,intellij+all,maven,kotlin
+
+tactical-ddd-workshop/

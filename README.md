@@ -73,3 +73,4 @@ To get started with the code in this repository, please follow these steps.
 * **[Spring Modulith Reference Documentation](https://docs.spring.io/spring-modulith/reference/index.html)**
 * **[jMolecules Official Site](https://jmolecules.org/)**
 * **[Oliver Drotbohm's Blog](https://odrotbohm.de/)**
+* **[odrotbohm/tactical-ddd-workshop](https://github.com/odrotbohm/tactical-ddd-workshop)**
